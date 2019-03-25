@@ -50,10 +50,10 @@
 }
 
 .banner__price--color-orange {
-  color: #ff6143;
+  color: var(--color-orange);
 }
 
 .banner__button {
-  padding-top: 2em;
+  padding-top: 2.5em;
   margin-left: auto;
 }

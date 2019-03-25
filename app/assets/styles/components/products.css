@@ -1,0 +1,20 @@
+.products {
+  padding-top: 4em;
+}
+
+.products__title {
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.products__title--color-orange {
+  color: var(--color-orange);
+}
+
+.products__container {
+  padding-top: 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2rem;
+}
