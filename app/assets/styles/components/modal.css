@@ -30,7 +30,7 @@
   margin-left: -400px;
   text-align: center;
 
-  background: white;
+  background: var(--color-white);
   border-radius: 20px;
 }
 
