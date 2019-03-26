@@ -23,6 +23,10 @@
   color: var(--color-orange);
 }
 
+.card__price--dashed {
+  text-decoration-line: line-through;
+}
+
 .card__button {
   margin-top: 1em;
   display: none;

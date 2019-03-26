@@ -6,6 +6,7 @@
   <title>CarnaStore</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="../assets/styles/index.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
   <script src="../assets/js/index.js" type="text/javascript"></script>
 </head>
 <body>
@@ -48,18 +49,20 @@
           <form action="#" class="product__form">
             <div class="product__size">
               <div class="product__size__title">Escolha o tamanho</div>
-
-              <input type="radio" id="pp" class="product__form_radio" name="size" value="PP">
-              <label for="pp" class="product__form__label">PP</label>
               
-              <input type="radio" id="p" class="product__form_radio" name="size" value="P">
-              <label for="p" class="product__form__label">P</label>
-              
-              <input type="radio" id="m" class="product__form_radio" name="size" value="M">
-              <label for="m" class="product__form__label">M</label>
-              
-              <input type="radio" id="g" class="product__form_radio" name="size" value="G">
-              <label for="g" class="product__form__label">G</label>
+              <div class="product__inputs">
+                <input type="radio" id="pp" class="product__form_radio" name="size" value="PP">
+                <label for="pp" class="product__form__label">PP</label>
+                
+                <input type="radio" id="p" class="product__form_radio" name="size" value="P">
+                <label for="p" class="product__form__label">P</label>
+                
+                <input type="radio" id="m" class="product__form_radio" name="size" value="M">
+                <label for="m" class="product__form__label">M</label>
+                
+                <input type="radio" id="g" class="product__form_radio" name="size" value="G">
+                <label for="g" class="product__form__label">G</label>
+              </div>
               
               <div class="product__form__button">
                 <input type="submit" value="Adicionar ao carrinho" class="button">
@@ -78,60 +81,40 @@
       <div class="container products__container">
         <div class="card">
           <img src="../../layout/images/fantasia-01.png" alt="fantasia-01" class="card__image">
-
+        
           <div class="card__price">
             De R$ 200 por <span class="card__price--color-orange"><strong>&nbsp;R$ 100</strong></span>
-
+        
             <a href="#" class="button card__button">Mais detalhes</a>
           </div>
         </div>
-
+        
         <div class="card">
           <img src="../../layout/images/fantasia-02.png" alt="fantasia-02" class="card__image">
-
+        
           <div class="card__price">
-            De R$ 200 por <span class="card__price--color-orange"><strong>&nbsp;R$ 100</strong></span>
-
+            Por <span class="card__price--color-orange"><strong>&nbsp;R$ 120</strong></span>
+        
             <a href="#" class="button card__button">Mais detalhes</a>
           </div>
         </div>
-
+        
         <div class="card">
           <img src="../../layout/images/fantasia-03.png" alt="fantasia-03" class="card__image">
-
+        
           <div class="card__price">
-            De R$ 200 por <span class="card__price--color-orange"><strong>&nbsp;R$ 100</strong></span>
-
+            De R$ 130 por <span class="card__price--color-orange"><strong>&nbsp;R$ 90</strong></span>
+        
             <a href="#" class="button card__button">Mais detalhes</a>
           </div>
         </div>
-
+        
         <div class="card">
           <img src="../../layout/images/fantasia-01.png" alt="fantasia-03" class="card__image">
-
+        
           <div class="card__price">
-            De R$ 200 por <span class="card__price--color-orange"><strong>&nbsp;R$ 100</strong></span>
-
-            <a href="#" class="button card__button">Mais detalhes</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="../../layout/images/fantasia-02.png" alt="fantasia-03" class="card__image">
-
-          <div class="card__price">
-            De R$ 200 por <span class="card__price--color-orange"><strong>&nbsp;R$ 100</strong></span>
-
-            <a href="#" class="button card__button">Mais detalhes</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="../../layout/images/fantasia-03.png" alt="fantasia-03" class="card__image">
-
-          <div class="card__price">
-            De R$ 200 por <span class="card__price--color-orange"><strong>&nbsp;R$ 100</strong></span>
-
+            De R$ 50 por <span class="card__price--color-orange"><strong>&nbsp;R$ 40</strong></span>
+        
             <a href="#" class="button card__button">Mais detalhes</a>
           </div>
         </div>
