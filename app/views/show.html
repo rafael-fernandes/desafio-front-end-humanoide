@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" media="screen" href="../assets/styles/index.css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
   <script src="../assets/js/index.js" type="text/javascript"></script>
+  <script src="../assets/js/modal.js" type="text/javascript"></script>
 </head>
 <body>
   <header>
@@ -65,7 +66,7 @@
               </div>
               
               <div class="product__form__button">
-                <input type="submit" value="Adicionar ao carrinho" class="button">
+                <a href="#" class="button">Adicionar ao carrinho</a>
               </div>
             </div>
           </form>
@@ -121,6 +122,23 @@
       </div>
     </section>
   </main>
+
+  <div class="modal">
+    <div class="overlay"></div>
+    <div class="modal__content">
+      <img src="../assets/images/confetti.svg" alt="confetti">
+
+      <div class="modal__title">VIVAAAA!</div>
+
+      <div class="modal__description">Adicionamos o item<br>no seu carrinho!</div>
+
+      <div class="modal__buttons">
+        <a href="#" class="button button--outline">Continuar comprando</a>
+        <span>&emsp;</span>
+        <a href="#" class="button">Ir para o carrinho</a>
+      </div>
+    </div>
+  </div>
 
   <footer>
     <section class="footline">
