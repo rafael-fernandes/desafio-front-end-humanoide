@@ -18,3 +18,23 @@
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .products {
+    padding-top: 3em;
+    padding-bottom: 2em;
+  }
+
+  .products__title {
+    width: 270px;
+    margin: 0 auto;
+
+    font-size: 14px;
+  }
+
+  .products__container {
+    padding-top: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+    grid-gap: 1rem;
+  }
+}
