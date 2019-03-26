@@ -22,7 +22,11 @@ function fillProducts(data) {
     var price = "";
 
     if (product.promotional_price) {
-      price = "De <span class='card__price--dashed'>R$ " + product.promotional_price + "</span> por <span class='card__price--color-orange'><strong>&nbsp;R$ " + product.price + "</strong></span>"
+      if (product.price) {
+        price = "De <span class='card__price--dashed'>R$ " + product.promotional_price + "</span> por <span class='card__price--color-orange'><strong>&nbsp;R$ " + product.price + "</strong></span>"
+      } else {
+        price = "Por <span class='card__price--color-orange'><strong>&nbsp;R$ " + product.promotional_price + "</strong></span>"
+      }
     } else {
       price = "Por <span class='card__price--color-orange'><strong>&nbsp;R$ " + product.price + "</strong></span>"
     }
@@ -36,7 +40,11 @@ function fillProduct(data, product_id) {
   var price = "";
 
   if (product.promotional_price) {
-    price = "De <span class='product__price--dashed'>R$ " + product.promotional_price + "</span> por <strong>R$ " + product.price + "</strong></span>"
+    if (product.price) {
+      price = "De <span class='product__price--dashed'>R$ " + product.promotional_price + "</span> por <strong>R$ " + product.price + "</strong></span>"
+    } else {
+      price = "Por <strong>R$ " + product.promotional_price + "</strong>"
+    }
   } else {
     price = "Por <strong>R$ " + product.price + "</strong>"
   }
