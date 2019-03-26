@@ -11,3 +11,14 @@
 .payment__security {
   margin-left: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .payment__container {
+    flex-direction: column-reverse;
+  }
+
+  .payment__security {
+    margin-left: 0;
+    margin-bottom: 2em;
+  }
+}

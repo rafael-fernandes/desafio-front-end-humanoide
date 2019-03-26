@@ -23,3 +23,15 @@
 .footline__email:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+  .footline__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .footline__email {
+    margin-left: 0;
+  }
+}
