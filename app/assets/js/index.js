@@ -52,5 +52,6 @@ function fillProduct(data, product_id) {
     var size = product.sizes[index];
 
     $($('.product__inputs')[0]).append("<input type='radio' id='" + size + "' class='product__form_radio' name='size' value='" + size + "'><label for='" + size + "' class='product__form__label'>" + size + "</label>")
+    $($('.product__inputs')[1]).append("<input type='radio' id='" + size + "-m' class='product__form_radio' name='size-m' value='" + size + "'><label for='" + size + "-m' class='product__form__label'>" + size + "</label>")
   }
 }

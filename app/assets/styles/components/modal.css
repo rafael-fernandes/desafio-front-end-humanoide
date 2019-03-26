@@ -50,3 +50,28 @@
 .modal__buttons {
   padding-top: 4em;
 }
+
+@media screen and (max-width: 768px) {
+  .modal__content {
+    width: 250px;
+    min-height: 0px;
+    margin-left: -155px;
+    padding: 3em 2em;
+  }
+
+  .modal__title {
+    font-size: 18px;
+  }
+
+  .modal__description {
+    font-size: 14px;
+  }
+
+  .modal__buttons {
+    padding-top: 2em;
+  }
+
+  .modal__buttons .button {
+    display: block;
+  }
+}
