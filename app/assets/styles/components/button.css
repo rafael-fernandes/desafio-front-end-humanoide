@@ -32,3 +32,10 @@
   color: var(--color-white);
   border: 1px solid var(--color-orange);
 }
+
+@media screen and (max-width: 768px) {
+  .button {
+    padding: .6rem 1.25rem;
+    font-size: 12px;
+  }
+}

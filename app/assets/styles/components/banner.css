@@ -57,3 +57,32 @@
   padding-top: 2.5em;
   margin-left: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .banner {
+    min-height: 213px;
+    background-position: 80% center;
+  }
+
+  .banner__content {
+    width: 150px;
+    padding-top: 0;
+    padding-left: 2em;
+  }
+
+  .banner__title {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .banner__sub-title {
+    margin-left: 0;
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .banner__button {
+    padding-top: 1em;
+    margin-left: 0;
+  }
+}

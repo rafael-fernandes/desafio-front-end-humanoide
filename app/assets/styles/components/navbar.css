@@ -13,3 +13,20 @@
   font-size: 18px;
   letter-spacing: 0.1em;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: 65px;
+    padding: .25em 0;
+
+    justify-content: center;
+  }
+
+  .navbar__logo img {
+    height: 30px;
+  }
+
+  .navbar__title {
+    display: none;
+  }
+}
